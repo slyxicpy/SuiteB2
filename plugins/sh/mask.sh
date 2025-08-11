@@ -1,4 +1,4 @@
-# DESC: Acorta y enmascara URLs. Uso: mask.sh https://PhishingUrls.com -d microsoft.com -k secure,login
+# DESC: Acorta y enmascara URLs. Uso: mask.sh https://PhishingUrls.com -d otheris.com -k secure,login
 
 usage() {
     echo "Uso: $0 <url> [-d dominio] [-k keywords] [-o output]"
