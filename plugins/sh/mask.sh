@@ -2,7 +2,7 @@
 
 usage() {
     echo "Uso: $0 <url> [-d dominio] [-k keywords] [-o output]"
-    echo "Ejemplo: $0 https://example.com -d login.microsoft.com -k secure,account -o json"
+    echo "Ejemplo: $0 https://example.com -d login.micros.com -k secure,account -o json"
     echo "Opciones:"
     echo "  -d: Dominio para enmascarar (por defecto: login.live.com)"
     echo "  -k: Palabras clave separadas por comas (por defecto: login,secure,account)"
