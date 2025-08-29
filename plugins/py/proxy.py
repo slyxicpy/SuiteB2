@@ -279,7 +279,7 @@ def main():
         print("Error! Cantidad máxima es 200,000")
         sys.exit(1)
     
-    scraper = ProxyScraperUltra(max_workers=args.threads, timeout=args.timeout)
+    scraper = proxyScraper(max_workers=args.threads, timeout=args.timeout)
     
     try:
         proxies_totales = scraper.obtener_todos_proxies()
