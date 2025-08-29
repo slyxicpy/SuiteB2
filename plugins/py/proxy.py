@@ -15,7 +15,7 @@ from urllib3.util.retry import Retry
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-class ProxyScraperUltra:
+class proxyScraper:
     def __init__(self, max_workers=50, timeout=5):
         self.max_workers = max_workers
         self.timeout = timeout
